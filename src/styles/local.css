@@ -1,0 +1,14 @@
+.page-header {
+  /* Override Bootstrap's silly top margin */
+  margin-top: 0;
+}
+
+.posted-tagline, .site-tagline {
+  font-size: small;
+  font-style: italic;
+  margin-top: 0;
+}
+
+.site-tagline {
+  margin-left: 14em;
+}

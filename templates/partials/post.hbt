@@ -1,0 +1,11 @@
+<article id="{{slugify title}}">
+  <hgroup>
+    <h1>
+      <a href="/{{sanitizePath path}}">{{title}}</a>
+    </h1>
+    <h2 class="posted-tagline small">
+      posted on {{year}}-{{month}}-{{day}} at {{time}}
+    </h2>
+  </hgroup>
+  {{{contents}}}
+</article>

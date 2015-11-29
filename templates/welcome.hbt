@@ -1,0 +1,7 @@
+{{> header}}
+  {{> content-header}}
+
+  {{#each collections.posts}}
+    {{> post}}
+  {{/each}}
+{{> footer}}

@@ -24,7 +24,7 @@ metalsmith.use(define({
 
 // Instead of using one long as hell chain, we break up the use calls
 // into groupings of the same plugin. Just remember, plugin order matters.
-
+require('./lib/ignore');
 require('./lib/collections');
 require('./lib/markdown');
 require('./lib/permalinks');

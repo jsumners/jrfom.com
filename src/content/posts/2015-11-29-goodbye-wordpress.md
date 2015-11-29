@@ -49,10 +49,10 @@ add any more content to Wordpress. Now that I've moved on to this setup
 I will maybe write more frequently. My current goal, though, is to come up with
 some sort of better template/design.
  
-Finally, I may consider adding [Disqus][https://disqus.com/] comment system.
+Finally, I may consider adding [Disqus](https://disqus.com/) comment system.
 But it's unlikely. If you have something to say about a post, you can mention
-[@jsumners79][https://twitter.com/jsumners79] on Twitter or
-[+JamesSumners][https://plus.google.com/+JamesSumners] on Google+.
+[@jsumners79](https://twitter.com/jsumners79) on Twitter or
+[+JamesSumners](https://plus.google.com/+JamesSumners) on Google+.
 
 [wordpress]: http://wordpress.org/
 [oldwelcome]: http://jrfom.com/2010/03/06/welcome-to-the-new-room-full-of-mirrors/

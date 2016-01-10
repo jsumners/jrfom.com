@@ -1,4 +1,4 @@
-.page-header {
+.page-header, .site-title {
   /* Override Bootstrap's silly top margin */
   margin-top: 0;
 }
@@ -11,4 +11,9 @@
 
 .site-tagline {
   margin-left: 14em;
+}
+
+.site-nav-intro {
+  line-height: 1.8;
+  margin-top: 5px;
 }

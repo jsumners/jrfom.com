@@ -1,0 +1,39 @@
+<div class="col-lg-2">
+  <section class="site-nav-intro small text-muted">
+    <p>
+      Howdy, my name is James Sumners.
+      This site is where I publish my various thoughts, opinions, and technical
+      articles; a virtual reflection of myself. This site is just one bit
+      of my presence on the web. You can find my music, code, resume, and
+      throw away thoughts at the following links.
+    </p>
+  </section>
+  <nav>
+    <ul class="nav">
+      <li>
+        <a href="http://haplo.bandcamp.com/">Haplo @ Bandcamp</a>
+      </li>
+      <li>
+        <a href="http://haplo-music.com/">Haplo (main site)</a>
+      </li>
+      <li>
+        <a href="https://github.com/jsumners">GitHub</a>
+      </li>
+      <li>
+        <a href="https://bitbucket.org/jsumners">BitBucket</a>
+      </li>
+      <li>
+        <a href="https://stackoverflow.com/users/7979">StackOverflow</a>
+      </li>
+      <li>
+        <a href="http://james.sumners.info">Technical Profile</a>
+      </li>
+      <li>
+        <a href="https://twitter.com/jsumners79">Twitter</a>
+      </li>
+      <li>
+        <a href="https://plus.google.com/JamesSumners">Google+</a>
+      </li>
+    </ul>
+  </nav>
+</div>

@@ -2,6 +2,9 @@
 
 {{#each collections.posts}}
   {{> post}}
+  {{#unless @last}}
+    <hr>
+  {{/unless}}
 {{/each}}
 
 {{> footer}}

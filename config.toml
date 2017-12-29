@@ -1,0 +1,32 @@
+baseURL = "https://jrfom.com/"
+languageCode = "en-us"
+copyright = "Copyright - James Sumners"
+title = "Room Full of Mirrors"
+
+staticDir = ["static", "assets"]
+
+
+### begin: theme settings ###
+theme = "kiera"
+pygmentsCodeFences = true
+
+disqusShortname = "" #Disqus shortname
+googleAnalytics = "" #Google Analytics ID
+
+paginate = 15
+
+summaryLength = 30
+enableEmoji = true
+
+[author]
+    name = "James Sumners"       #Author name
+    github = "jsumners"     #Github username
+    gitlab = "james-sumners"     #Gitlab username
+    linkedin = ""   #LinkedIn username
+    facebook = ""   #Facebook username
+    twitter = "jsumners79"    #Twitter username
+    instagram = ""  #Instagram username
+
+[params]
+    tagline = "... and all I could see was me"
+### end: theme settings ###

@@ -55,7 +55,7 @@ anywhere *near* the same amount of exersice as the previous summer.
 
 [netflix]: https://netflix.com
 [sugar_film]: http://www.imdb.com/title/tt3892434/
-[bicyle]: https://web.archive.org/web/20170602121334/http://archive.trekbikes.com/us/en/2014/Trek/7_2_fx
+[bicycle]: https://web.archive.org/web/20170602121334/http://archive.trekbikes.com/us/en/2014/Trek/7_2_fx
 
 ## What I Have Learned
 

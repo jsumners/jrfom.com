@@ -1,6 +1,7 @@
 ---
 title: Sugar
 date: 2017-12-29T18:45:00-05:00
+lastmod: 2017-12-30T08:36:00-05:00
 slug: sugar
 ---
 
@@ -9,7 +10,7 @@ Around the middle of May this year (2017) I was browsing through my
 called [*That Sugar Film*][sugar_film]. I decided to watch it. It is not an
 exaggeration to say that film changed me; at least since then and for the
 forseeable future. After watching that film I spent the remainder of the month
-finishng of every food item in my house that contained added sugar. On 01 June
+finishng off every food item in my house that contained added sugar. On 01 June
 2017 I stopped consuming *anything* that contained added sugar for two months.
 At the start of those two months my weight fluctuated between 205 and 210
 pounds. At the end of those two months I weighed about 180 pounds. The *only*
@@ -23,7 +24,7 @@ This is what my weight measurements look like for the past year:
 
 Let's backtrack a little bit.
 
-On 26 May 3014 I bought a [new bicycle][bicycle]. I have ridden that bicycle
+On 26 May 2014 I bought a [new bicycle][bicycle]. I have ridden that bicycle
 almost every warm day since. My typical summer ride is almost 20 miles. I do not
 coast. I peddle the whole time. The elevation change over my typical ride is
 around 1,200 feet, and I average 13 miles per hour. That translates to a lot of

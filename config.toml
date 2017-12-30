@@ -3,9 +3,6 @@ languageCode = "en-us"
 copyright = "Copyright - James Sumners"
 title = "Room Full of Mirrors"
 
-staticDir = ["static", "assets"]
-
-
 ### begin: theme settings ###
 theme = "kiera"
 pygmentsCodeFences = true

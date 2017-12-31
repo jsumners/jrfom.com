@@ -1,7 +1,7 @@
 ---
 title: Sugar
 date: 2017-12-29T18:45:00-05:00
-lastmod: 2017-12-30T08:36:00-05:00
+lastmod: 2017-12-31T09:37:00-05:00
 slug: sugar
 ---
 
@@ -9,8 +9,8 @@ Around the middle of May this year (2017) I was browsing through my
 [Netflix][netflix] recommendations when I came across a documentary
 called [*That Sugar Film*][sugar_film]. I decided to watch it. It is not an
 exaggeration to say that film changed me; at least since then and for the
-forseeable future. After watching that film I spent the remainder of the month
-finishng off every food item in my house that contained added sugar. On 01 June
+foreseeable future. After watching that film I spent the remainder of the month
+finishing off every food item in my house that contained added sugar. On 01 June
 2017 I stopped consuming *anything* that contained added sugar for two months.
 At the start of those two months my weight fluctuated between 205 and 210
 pounds. At the end of those two months I weighed about 180 pounds. The *only*
@@ -28,7 +28,7 @@ On 26 May 2014 I bought a [new bicycle][bicycle]. I have ridden that bicycle
 almost every warm day since. My typical summer ride is almost 20 miles. I do not
 coast. I peddle the whole time. The elevation change over my typical ride is
 around 1,200 feet, and I average 13 miles per hour. That translates to a lot of
-hills and a very respectible speed for the type of bicycle. I am getting a
+hills and a very respectable speed for the type of bicycle. I am getting a
 significant amount of exercise over this ride. Given that information, examine
 this chart of my weight between 2016-03-01 and 2016-09-30:
 
@@ -52,7 +52,7 @@ of added sugar from my diet. As someone living in the South, I continued to eat
 ridiculous amounts of fried foods, breads, and very few "healthy" foods. Actually,
 that's not quite true. In late August and all of September I was unable to ride
 my bicycle due to campaigning for public office (I lost). So I wasn't getting
-anywhere *near* the same amount of exersice as the previous summer.
+anywhere *near* the same amount of exercise as the previous summer.
 
 [netflix]: https://netflix.com
 [sugar_film]: http://www.imdb.com/title/tt3892434/
@@ -67,7 +67,7 @@ figure). With corn syrup it's most likely going to be "high fructose" corn
 syrup; but it's also very likely you'll find **both** regular corn syrup and
 high fructose corn syrup in an item.
 
-Second, fructose is metabolised by the body much differently from glucose.
+Second, fructose is metabolized by the body much differently from glucose.
 Wikipedia has [some information on the subject][wiki_fructose], but here's what
 my aunt (an [epidemiologist](epidemiologist)) has to say about it:
 
@@ -132,7 +132,7 @@ shouldn't eat it. The "organic" label foods are usually sugar free, e.g.
 Newman's Own "Sockarooni" pasta sauce has added sugar, but the organic version
 does not.
 1. Switch to sourdough bread. Real sourdough doesn't have added sugar.
-1. Look up sugar free recipies on the Internet. Skip the ones that use sugar
+1. Look up sugar free recipes on the Internet. Skip the ones that use sugar
 substitutes, e.g Stevia. Use some sort of fruit to sweeten foods. My favorite
 is pineapple.
 

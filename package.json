@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "start": "hugo server -D",
+    "build": "hugo",
+    "deploy": "rsync -av --rsh=ssh public/ jrfom.com:/opt/webroot/jrfom.com"
+  }
+}

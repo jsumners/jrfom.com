@@ -1,6 +1,6 @@
 ---
 title: Xbox One X Hard Drive Replacement
-date: 2019-03-03T12:00:00-04:00
+date: 2019-03-03T12:00:00-05:00
 slug: xbox-one-x-hd-replacement
 ---
 

@@ -25,5 +25,7 @@ enableEmoji = true
     instagram = ""  #Instagram username
 
 [params]
+    description = "James Sumners's ramblings about various topics"
     tagline = "... and all I could see was me"
+    images = ["/social-card.png"]
 ### end: theme settings ###

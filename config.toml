@@ -19,10 +19,14 @@ enableEmoji = true
     name = "James Sumners"       #Author name
     github = "jsumners"     #Github username
     gitlab = "james-sumners"     #Gitlab username
-    linkedin = ""   #LinkedIn username
-    facebook = ""   #Facebook username
+    linkedin = "james-sumners-88b747187"   #LinkedIn username
+    # facebook = ""   #Facebook username
     twitter = "jsumners79"    #Twitter username
-    instagram = ""  #Instagram username
+    # instagram = ""  #Instagram username
+
+[markup.goldmark.renderer]
+# https://web.archive.org/save/https://jdhao.github.io/2019/12/29/hugo_html_not_shown/
+unsafe = true
 
 [params]
     description = "James Sumners's ramblings about various topics"

@@ -1,7 +1,8 @@
 ---
 title: About James Sumners
 linkTitle: About
-date: 2017-12-29
+date: 2017-12-29T18:45:00.000-05:00
+lastmod: 2020-05-19T18:20:00.000-04:00
 menu: main
 meta: "false"
 weight: 20
@@ -22,4 +23,3 @@ throw away thoughts at the following links:
 + [StackOverflow](https://stackoverflow.com/users/7979)
 + [Technical Profile](http://james.sumners.info)
 + [Twitter](https://twitter.com/jsumners79)
-+ [Google+](https://plus.google.com/JamesSumners)

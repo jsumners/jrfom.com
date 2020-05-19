@@ -24,6 +24,10 @@ enableEmoji = true
     twitter = "jsumners79"    #Twitter username
     # instagram = ""  #Instagram username
 
+[markup.goldmark.renderer]
+# https://web.archive.org/save/https://jdhao.github.io/2019/12/29/hugo_html_not_shown/
+unsafe = true
+
 [params]
     description = "James Sumners's ramblings about various topics"
     tagline = "... and all I could see was me"

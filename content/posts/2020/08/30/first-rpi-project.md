@@ -57,7 +57,7 @@ any relevant error messages. So I decided to check if [Void Linux][void] would
 work. Turns out, not quite.
 
 Void, at this time, only has pre-built images for the Raspberries 1, 2, and 3.
-They do not have an image for the RPI4. However, someone had figure out how
+They do not have an image for the RPI4. However, someone had figured out how
 to build such an image. So I started working on that.
 
 ## Building A Void Linux Image
@@ -84,7 +84,7 @@ stages.
   will get their build process updated to include RPI4 by default. Definitely
   check to see if that is case at the time of reading this before attempting
   to use this image:
-  <a href="https://keybase.pub/jsumners/void-rpi4-20200828.img.xz">
+  <a href="https://keybase.pub/jsumners/rpi4/void-rpi4-20200828.img.xz">
     https://keybase.pub/jsumners/rpi4/void-rpi4-20200828.img.xz
   </a>
 </aside>

@@ -1,7 +1,7 @@
 This project is based on [Hugo](https://gohugo.io/).
 
-1. Install gvm: https://github.com/moovweb/gvm
-2. Install Go: `gvm install go1.13 -B`
+1. Install g: https://github.com/stefanmaric/g
+2. Install Go: `g install latest`
 3. Install Hugo: `go get -v github.com/gohugoio/hugo`
     * Or to update: `go get -u all`
 

@@ -73,7 +73,7 @@ https://web.archive.org/web/20210128154051/https://mrfrosti.com/2010/03/09/last-
 
 ## Linux Admin? Web Developer? Both?
 
-Over time, the semi-product slash Linux admin role acquired more and more actual
+Over time, the semi-product slash Linux admin role required more and more actual
 Linux administration. Specifically, other products we used from the same company
 required RHEL. And since those products were to be administered by the
 subdepartment I was in, I got to administer them from the operating system up.

@@ -32,8 +32,8 @@ university in the autumn of 1998. I was not ready for university when I started,
 and had to scale way back in order to focus on the core curriculum and succeed.
 After one semester, my GPA was 2.0; by graduation, it was 2.92. I _almost_ got
 it back above 3.0 with many consecutive ≥3.0 semesters. I relate the story of my
-academic struggle/perseverance as proof the my path has not been ideal. Also, to
-show that even such an abysmal start can be overcome with hard work.
+academic struggle/perseverance as proof that my path has not been ideal. Also,
+to show that even such an abysmal start can be overcome with hard work.
 
 Throughout the whole time I was pushing through university, I was either
 frontline technical support or a "student assistant" in the networking

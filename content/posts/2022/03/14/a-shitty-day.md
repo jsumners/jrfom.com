@@ -38,11 +38,11 @@ off. The people remaining are really smart and will figure things out, but I do
 not envy the road ahead of them.
 
 I am trying to accept this whole thing and move forward. I have to keep
-reminding myself that, regardless what is written in the links above, the market
-today is a strong one for people with my skills. I have to keep reminding myself
-that I have a proven body of public work. And I have to keep reminding myself
-that my time with Knock was an invaluable learning experience where I grew
-significantly in many ways.
+reminding myself that, regardless of what is written in the links above, the
+market today is a strong one for people with my skills. I have to keep reminding
+myself that I have a proven body of public work. And I have to keep reminding
+myself that my time with Knock was an invaluable learning experience where I
+grew significantly in many ways.
 
 But for today, it's really, really, hard to let all of that sink in.
 

@@ -1,6 +1,7 @@
 ---
 title: A Shitty Day
 date: 2022-03-15T19:20:00-04:00
+lastmod: 2022-05-07T19:30:00-04:00
 slug: a-shitty-day
 ---
 
@@ -12,7 +13,7 @@ I got laid off today.
 I can't say the layoffs were a surprise. Internal events were telegraphing that
 it was likely to happen. I was just crossing my fingers that I wouldn't be
 included. I spent the past four years putting everything I could into making
-[Knock a success]({{< ref "knock.md" >}}). I feel like I showed how capable I
+[Knock a success]({{< ref "a-new-career" >}}). I feel like I showed how capable I
 am, and that I did tremendous work. But the company is [not doing
 well](https://web.archive.org/web/20220315222047/https://therealdeal.com/2022/03/15/knock-it-off-homebuying-startup-ditches-ipo-plans/)
 at all:
@@ -51,5 +52,4 @@ during my tenure there. The names are redacted as I don't have their permission,
 but I doubt they will mind me sharing some amount of positivity on this
 terrible day.
 
-{{< load-photoswipe >}}
-{{< gallery dir="assets/2022/03/15/a-shitty-day" />}}
+{{< image-gallery namePattern="*.png" />}}

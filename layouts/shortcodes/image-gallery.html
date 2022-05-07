@@ -1,0 +1,56 @@
+<!--
+  This is a shortcode that generates an image gallery from page bundle resources.
+  See https://gohugo.io/content-management/page-bundles/
+
+  If a `namePattern` parameter is not given, then whatever is within the
+  shortcode open and close elements is rendered. The primary purpose, though,
+  is to supply a `namePattern` that is a glob for images to render. For example,
+  if the bundle has a "cool-images" directory to be turned into a gallery,
+  you would pass `namePattern="cool-images/*"`.
+
+  The shortcode also supports `width` and `height` parameters to set the width
+  and height of generated thumbnails. Each of these parameters defaults to
+  "250".
+-->
+
+{{ $height := default "250" (.Get "height") }}
+{{ $width := default "250" (.Get "width") }}
+{{ with (.Get "namePattern") }}
+  {{ $images := ($.Page.Resources.Match .) }}
+  {{ if not ($.Page.Scratch.Get "figurecount") }}
+    <!--
+      Setting the scratch pad figure count is a hack so that we do not
+      load the css more than one time per page.
+    -->
+    <link rel="stylesheet" href="/css/image-gallery.css" />
+  {{ end }}
+  {{ $.Page.Scratch.Add "figurecount" 1 }}
+
+  <div class="-fx-image-gal">
+  <!-- Still images -->
+  {{ range $images }}
+    <div class="-fx-gal-item">
+      {{ if eq .MediaType.MainType "image" }}
+        {{ $resized := .Fit (print $width "x" $height " q80") }}
+        <div class="-fx-gal-image-thumb" tabindex="1">
+          <img src="{{$resized.RelPermalink}}" />
+        </div>
+        <div class="-fx-gal-image-big">
+          <img src="{{.}}" />
+        </div>
+      {{ else if eq .MediaType.MainType "video" }}
+        <div class="-fx-gal-image-thumb" tabindex="1">
+          <img src="{{.}}" />
+        </div>
+        <div class="-fx-gal-image-big">
+          <video controls autoplay="false" width="{{$width}}" height="{{$height}}">
+            <source src="{{.}}" type="{{.MediaType}}">
+          </video>
+        </div>
+      {{ end }}
+    </div>
+  {{ end }}
+  </div>
+{{ else }}
+  {{.Inner}}
+{{ end }}

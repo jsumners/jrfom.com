@@ -1,6 +1,7 @@
 ---
 title: My Career Path To Date
 date: 2021-11-17T20:45:00-05:00
+lastmod: 2022-05-07T19:30:00-04:00
 slug: career-path
 ---
 
@@ -13,7 +14,7 @@ Today, I received a private message on Twitter:
 It was in reference to the current tagline I have on my resume site,
 [james.sumners.info](https://james.sumners.info/). I responded with a very short
 summary, but I realized that I haven't written about it here. I thought I had in
-[A New Carerer]({{< ref "knock.md" >}}) or even [A Rumination On A
+[A New Carerer]({{< ref "a-new-career" >}}) or even [A Rumination On A
 Promotion]({{< ref "a-promotion.md" >}}) (I touched on it, but only from the
 perspective of how trepidatious it can be), but I clearly had not. This topic
 surfaces rather regularly in the Twitter circles I pay attention to. Given that

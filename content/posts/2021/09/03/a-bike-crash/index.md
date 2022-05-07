@@ -1,6 +1,7 @@
 ---
 title: A Bicycle Crash
 date: 2021-09-03T10:00:00-04:00
+lastmod: 2022-05-07T19:30:00-04:00
 slug: a-bike-crash
 ---
 
@@ -15,12 +16,11 @@ see events like this as a way toward overcoming such inane views.
 So drove up on Friday, had a nice leisurely morning touring some national
 monuments, and passing time until time for the ride.
 
-{{< load-photoswipe >}}
-{{< gallery dir="assets/2021/09/03/a-bike-crash/tour" />}}
+{{< image-gallery namePattern="tour/*" width="350" height="350" />}}
 
 ## The Crash
 
-{{< figure src="/assets/2021/09/03/a-bike-crash/IMG_3027.jpeg" class="float-right" >}}
+{{< figure src="IMG_3027.jpeg" class="float-right" >}}
 
 The afternoon had a few rain showers. But they passed in time for the event,
 at least enough that there were only occasional drops. So the streets were wet.

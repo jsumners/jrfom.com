@@ -1,7 +1,7 @@
 ---
 title: Sugar
 date: 2017-12-29T18:45:00-05:00
-lastmod: 2017-12-31T09:37:00-05:00
+lastmod: 2022-05-07T19:30:00-04:00
 slug: sugar
 ---
 
@@ -20,7 +20,7 @@ as I would have like because of rain.
 
 This is what my weight measurements look like for the past year:
 
-![Weight History](/assets/2017/12/29/sugar/bp_weight_history.png)
+![Weight History](bp_weight_history.png)
 
 Let's backtrack a little bit.
 
@@ -32,7 +32,7 @@ hills and a very respectable speed for the type of bicycle. I am getting a
 significant amount of exercise over this ride. Given that information, examine
 this chart of my weight between 2016-03-01 and 2016-09-30:
 
-![2016 Weight Chart](/assets/2017/12/29/sugar/2016-03-01_to_2016-09-30_weight_chart.png)
+![2016 Weight Chart](2016-03-01_to_2016-09-30_weight_chart.png)
 
 Bearing in mind that I had a couple of gout flare ups that sidelined me for a
 few weeks, and that I do not ride in the rain (unless I'm caught out), the
@@ -45,7 +45,7 @@ not necessarily true.
 
 Now consider the following graph over the same time period only one year later:
 
-![2017 Weight Chart](/assets/2017/12/29/sugar/2017-03-02_to_2017-09-29_weight_chart.png)
+![2017 Weight Chart](2017-03-02_to_2017-09-29_weight_chart.png)
 
 Again, rain and injury are factors, but the only actual change is the elimination
 of added sugar from my diet. As someone living in the South, I continued to eat

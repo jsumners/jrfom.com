@@ -1,10 +1,11 @@
 ---
 title: A Rumination On A Promotion
 date: 2020-05-19T19:35:00-04:00
+lastmod: 2022-05-07T19:30:00-04:00
 slug: new-title-who-dis
 ---
 
-May 01, 2020 marked two years since I [switched careers]({{< ref "knock.md" >}}).
+May 01, 2020 marked two years since I [switched careers]({{< ref "a-new-career" >}}).
 That career change was from a "Linux System Adminstrator" to a "Software
 Engineer." Today, I was formally promoted to "Senior Software Engeineer."
 So I think it is worth taking a few minutes to write down my views on what

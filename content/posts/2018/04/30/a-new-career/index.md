@@ -1,10 +1,11 @@
 ---
 title: A New Career
 date: 2018-04-30T10:00:00-04:00
+lastmod: 2022-05-07T19:30:00-04:00
 slug: a-new-career
 ---
 
-![The HUB paperweight](/assets/2018/04/30/a-new-career/thehub.jpg#float-right)
+![The HUB paperweight](thehub.jpg#float-right)
 In 1999 I started work at [Clayton State University](http://clayton.edu) as
 a student employee. I turned my self-developed troubleshooting skills into a
 a job at the university's help desk: [The HUB](http://www.clayton.edu/hub).

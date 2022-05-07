@@ -42,9 +42,7 @@ it easy to remove (and replace later).
 4. At this point, you will need to remove two daughter cards that are screwed
 on to the internal housing. The screws holding the daughter boards on to the
 housing are TR8 screws.
-<a href="/assets/2019/03/03/xbox-one-x-hd-replacement/01-daughter.png">
-![Daughter Board 1](/assets/2019/03/03/xbox-one-x-hd-replacement/01-daughter.png)
-</a>
+<a href="01-daughter.png">![Daughter Board 1](01-daughter.png)</a>
 
 5. Next we need to remove the internal components from the bottom case. This
 is where the iFixit teardown video will get you into trouble. There are several
@@ -53,25 +51,19 @@ the two TR8 screws holding a ribbon cable in place (unplug the cable and
 gently push over to the side) and the six screws circled in blue in the following
 image. The four screws circled in green (numbered 7, 8, 9, and 10) do not need
 to be removed until time to take out the hard drive.
-<a href="/assets/2019/03/03/xbox-one-x-hd-replacement/02-top.png">
-![Daughter Board 1](/assets/2019/03/03/xbox-one-x-hd-replacement/02-top.png)
-</a>
+<a href="02-top.png">![Daughter Board 1](02-top.png)</a>
 
 6. With those screws removed you can lift the internal cage away from the
 bottom case and flip it over to reveal the bottom of the cage. This will
 have two screws that need to be removed. They are circled in blue and labeled
 1 and 2 in the following image.
-<a href="/assets/2019/03/03/xbox-one-x-hd-replacement/03-bottom.png">
-![Daughter Board 1](/assets/2019/03/03/xbox-one-x-hd-replacement/03-bottom.png)
-</a>
+<a href="03-bottom.png">![Daughter Board 1](03-bottom.png)</a>
 
 7. Now you can lift bottom half of the cage away from the top half to reveal
 the fan, power supply, and BD-ROM drive. We will remove the BD-ROM drive by
 lifting it up a little bit and then gently, but with quite some work, pulling
 the data and power cables off the back of the drive.
-<a href="/assets/2019/03/03/xbox-one-x-hd-replacement/04-open.png">
-![Daughter Board 1](/assets/2019/03/03/xbox-one-x-hd-replacement/04-open.png)
-</a>
+<a href="04-open.png">![Daughter Board 1](04-open.png)</a>
 
 8. The hard drive is now exposed and you can remove it by removing the 4
 green circled screws on the top half of the cage as mentioned in step 5

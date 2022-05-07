@@ -1,6 +1,7 @@
 ---
 title: My Opinions On Wahoo Fitness
 date: 2021-10-19T20:50:00-04:00
+lastmod: 2022-05-07T19:30:00-04:00
 slug: wahoo-thoughts
 ---
 
@@ -246,8 +247,7 @@ scaled rapidly at the cost of quality. A few examples are:
   updates or send error reports (except in this case to make it easier to
   request more data about the error and report a resolution).
 
-  {{< load-photoswipe >}}
-  {{< gallery dir="assets/2021/10/19/wahoo-thoughts" />}}
+  {{< image-gallery namePattern="*.png" />}}
 
 As I said at the outset, I genuinely like Wahoo products. I just wish they would
 slow down a bit to refine them them and support them better.

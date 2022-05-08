@@ -1,6 +1,7 @@
 <!--
   This is a shortcode that generates an image gallery from page bundle resources.
-  See https://gohugo.io/content-management/page-bundles/
+  See https://gohugo.io/content-management/page-bundles/. The layout is
+  based upon https://web.archive.org/web/20211201111141/https://code-boxx.com/beginner-create-grid-html-css/.
 
   If a `namePattern` parameter is not given, then whatever is within the
   shortcode open and close elements is rendered. The primary purpose, though,
@@ -8,49 +9,47 @@
   if the bundle has a "cool-images" directory to be turned into a gallery,
   you would pass `namePattern="cool-images/*"`.
 
-  The shortcode also supports `width` and `height` parameters to set the width
-  and height of generated thumbnails. Each of these parameters defaults to
-  "250".
+  @param namePattern Required parameter to select the images from the page
+  resources.
+
+  @param [width=480] This parameter will be used to determine width of
+  automatically generated thumbnails, as well as the width of any `video`
+  elements.
 -->
 
-{{ $height := default "250" (.Get "height") }}
-{{ $width := default "250" (.Get "width") }}
+{{ $width := default "480" (.Get "width") }}
 {{ with (.Get "namePattern") }}
   {{ $images := ($.Page.Resources.Match .) }}
-  {{ if not ($.Page.Scratch.Get "figurecount") }}
+
+  {{ if not ($.Page.Scratch.Get "galleryLoaded") }}
     <!--
-      Setting the scratch pad figure count is a hack so that we do not
+      Setting the scratch pad variable is a hack so that we do not
       load the css more than one time per page.
     -->
-    <link rel="stylesheet" href="/css/image-gallery.css" />
+    {{ $.Page.Scratch.Add "galleryLoaded" 1 }}
+    <style>
+      .image-gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 0.5em;
+      }
+    </style>
   {{ end }}
-  {{ $.Page.Scratch.Add "figurecount" 1 }}
 
-  <div class="-fx-image-gal">
-  <!-- Still images -->
-  {{ range $images }}
-    <div class="-fx-gal-item">
-      {{ if eq .MediaType.MainType "image" }}
-        {{ $resized := .Fit (print $width "x" $height " q80") }}
-        <div class="-fx-gal-image-thumb" tabindex="1">
-          <img src="{{$resized.RelPermalink}}" />
-        </div>
-        <div class="-fx-gal-image-big">
-          <img src="{{.}}" />
-        </div>
-      {{ else if eq .MediaType.MainType "video" }}
-        <div class="-fx-gal-image-thumb" tabindex="1">
-          <img src="{{.}}" />
-        </div>
-        <div class="-fx-gal-image-big">
-          <video controls autoplay="false" width="{{$width}}" height="{{$height}}">
-            <source src="{{.}}" type="{{.MediaType}}">
+  <div class="image-gallery">
+    {{ range $images }}
+      <div class="image-gallery-item">
+        {{ if eq .MediaType.MainType "image" }}
+          {{ $resized := .Resize (print $width "x q80") }}
+          <a href="{{.}}"><img src="{{$resized.RelPermalink}}" /></a>
+        {{ else if eq .MediaType.MainType "video" }}
+          <video controls autoplay="false" width="{{$width}}">
+            <source src="{{.}}" type="{{.MediaType}}" />
           </video>
-        </div>
-      {{ end }}
-    </div>
-  {{ end }}
+        {{end}}
+      </div>
+    {{ end }}
   </div>
 {{ else }}
-  {{.Inner}}
+  {{ .Inner }}
 {{ end }}

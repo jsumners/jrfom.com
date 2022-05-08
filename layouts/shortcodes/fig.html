@@ -1,0 +1,38 @@
+<!-- WIP: not in useful state -->
+
+{{ $src := .Get "src" }}
+{{ $caption := .Get "caption" }}
+{{ $position := default "right" (.Get "position") }}
+
+<style>
+  .figure {
+    display: table;
+    margin: 2rem 0;
+  }
+
+  .figure-left {
+    float: left;
+  }
+
+  .figure-right {
+    float: right;
+  }
+
+  .figure figcaption {
+    display: table-caption;
+    caption-side: bottom;
+    text-align: center;
+  }
+
+  .figure img {
+    object-fit: contain;
+  }
+</style>
+
+<figure class="figure figure-{{$position}}">
+  <img src="{{$src}}" alt="{{$caption}}" />
+
+  {{ with $caption }}
+  <figcaption>{{$caption}}</figcaption>
+  {{ end }}
+</figure>

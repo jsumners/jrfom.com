@@ -1,0 +1,6 @@
+{{ with .Get "src" }}
+{{ $video := $.Page.Resources.GetMatch . }}
+<video controls autoplay="false" style="width: 100%">
+  <source src="{{.}}" type="{{$video.MediaType}}" />
+</video>
+{{ end }}

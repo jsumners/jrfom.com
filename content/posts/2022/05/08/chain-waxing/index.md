@@ -1,11 +1,11 @@
 ---
 title: Chain Waxing
 date: 2022-05-08T17:00:00-04:00
-lastmod: 2022-05-08T17:00:00-04:00
+lastmod: 2022-05-09T07:30:00-04:00
 slug: chain-waxing
 ---
 
-I started my cycling hobby in 2014 I started out with a [Trek FX
+When I started my cycling hobby in 2014 I started out with a [Trek FX
 7.2][trek-fx-7.2], as seen in Figure 1. I put roughly 2,500 miles on that bike,
 and I think the most maintenance I ever did to the chain was to wipe it with a
 cloth before putting more [lubricant][tri-flow] on. When I upgraded to my
@@ -34,7 +34,7 @@ bill of materials to get started with chain waxing is a bit lengthier:
 + [InstantPot](https://www.amazon.com/dp/B06Y1YD5W7): to melt the wax with.
 + [extra cooking pot](https://www.amazon.com/dp/B072K19MQV): for the wax.
 
-It's a lot of stuff with a rather heft upfront cost. But, as you can learn
+It's a lot of stuff with a rather hefty upfront cost. But, as you can learn
 below, I think it was worth it.
 
 ## Preparing The Chain

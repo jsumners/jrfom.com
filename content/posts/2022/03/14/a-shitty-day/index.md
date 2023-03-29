@@ -13,9 +13,9 @@ I got laid off today.
 I can't say the layoffs were a surprise. Internal events were telegraphing that
 it was likely to happen. I was just crossing my fingers that I wouldn't be
 included. I spent the past four years putting everything I could into making
-[Knock a success]({{< ref "a-new-career" >}}). I feel like I showed how capable I
-am, and that I did tremendous work. But the company is [not doing
-well](https://web.archive.org/web/20220315222047/https://therealdeal.com/2022/03/15/knock-it-off-homebuying-startup-ditches-ipo-plans/)
+Knock a success. I feel like I showed how capable I
+am, and that I did tremendous work. But the company is not doing
+well
 at all:
 
 > The company on Tuesday announced a private fundraising round including $70

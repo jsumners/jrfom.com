@@ -1,7 +1,7 @@
 ---
 title: Chain Waxing
 date: 2022-05-08T17:00:00-04:00
-lastmod: 2022-05-09T07:30:00-04:00
+lastmod: 2023-04-13T08:30:00-04:00
 slug: chain-waxing
 ---
 
@@ -40,7 +40,7 @@ below, I think it was worth it.
 ## Preparing The Chain
 
 Before the chain can be waxed it needs to be completely free of any current
-lubricant and debris. This is best done with a completely new, unused, chain,
+lubricant and debris. This is best done with a completely new, unused chain,
 but can be done with a relatively fresh chain. When I started this experiment
 I had about 200 miles on my chain. The further the chain has been ridden, the
 less "worth it" it will be to clean it and wax it. I wish I had started with
@@ -66,7 +66,7 @@ baths to finish flushing the chain of dirt.
 
 ## Waxing The Chain
 
-The howto that [Slica provides][slica-howto] is fairly comprehensive and easy
+The howto that [Slica provides][silca-howto] is fairly comprehensive and easy
 to follow. In short:
 
 1. Put the wax into the InstantPot and set the cooker to slow cook on high. It's
@@ -92,7 +92,7 @@ All of the information I have read on ZFC and Silca's site/videos indicates
 that a chain should get about 300km/186mi before needing to be waxed again.
 I typically ride around 100mi per week. My first wax was around mid-March.
 It seems to me that I can get away with waxing at the start of every month by
-taking advantage of the drip wax. So, thus far I have wax my chain twice:
+taking advantage of the drip wax. So, thus far I have waxed my chain twice:
 once in mid-March and once on May 1. Between those waxes I applied the drip
 wax twice. The below image gallery shows all of the steps in the rewaxing
 process from that May 1, 2022 waxing session.
@@ -100,7 +100,7 @@ process from that May 1, 2022 waxing session.
 {{< image-gallery namePattern="rewax/*" />}}
 
 The first image shows how much dirt I removed from the chain prior to putting
-in in the pot from waxing. It's one paper towel that was used to remove dirt
+it in the pot for waxing. It's one paper towel that was used to remove dirt
 from about a month and a half of riding. The towel is unbelievably clean;
 especially compared to the amount of black grease that would come from an
 equally ridden chain using regular wet lubricant.
@@ -111,7 +111,7 @@ temperature. I _highly_ recommend getting a laser thermometer to help with this
 process. Guessing that things have reached temperature is not easy.
 
 One of the images shows the tool I built for loosening the chain. It's a
-small 1 square foot sheet of plywood with an iron pipe screwed in to an iron
+small 1 square foot sheet of plywood with an iron pipe screwed into an iron
 floor flange attached to the plywood. I would have used PVC pipe, but I could
 not find a floor flange in PVC.
 
@@ -145,7 +145,7 @@ maintenence:
 
 {{< video src="chain-noise-with-worn-wax.mov" >}}
 
-Notice that it isn't annoyingly noisy, but it is definitely a noticeable
+Notice that it isn't annoyingly noisy, but there is definitely a noticeable
 clicking. A freshly hot waxed chain is shown in this video:
 
 {{< video src="chain-noise-fresh-wax.mov" >}}
@@ -163,14 +163,22 @@ move up to a chain off once per month method anyway.
 The waxing method I described above is about an hour of maintenance from start
 to finish. While the chain and wax are heating up I can thoroughly wash my bike.
 And believe me, the [Silver
-Comet](https://en.wikipedia.org/wiki/Silver_Comet_Trail), that I ride alomst
+Comet](https://en.wikipedia.org/wiki/Silver_Comet_Trail) trail that I ride alomst
 every Saturday, puts _plenty_ of dirt on my bike (_and_ me) after just one ride
-to just a good washing (I really don't understand how that trail imparts more
+to justify a good washing (I really don't understand how that trail imparts more
 dirt than any public road I ride).
 
 Given the longevity of a pot of wax (Silca claims somewhere around 30 waxes?),
 the lack of grease picking up dirt, the lack of random chainring tattoos, and
 the minimal impact to maintenance time, I forsee myself sticking with waxing.
+
+## Update 2023-04-13
+
+Since writing this article I have devised a couple of tips that make maintenance easier:
+
+1. Applying the drip wax between hot waxings can be done without much effort. It is plenty effective to apply a drop along the top of each roller between the chainring and the pulley wheel, massaging the wax into the rollers, and advancing the chain for the next set of links. This process is far quicker than individually massaging each roller, and works just as well.
+2. There is no need to hot wax the quick link. It is sufficient to hot wax the full chain, put it back on the bike and link it together with the quick link, and then apply some drip wax to the pins of the quick link.
+3. It's a good idea to perform a quick degreaser and denatured alcohol rinse of the chain every few months to remove internal dirt. One round of each cleaner should be enough. Let the chain fully dry afterward, and then proceed with a standard hot wax.
 
 
 [trek-fx-7.2]: https://web.archive.org/web/20201112034340/https://archive.trekbikes.com/us/en/2014/Trek/7_2_fx

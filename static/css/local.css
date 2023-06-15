@@ -1,0 +1,12 @@
+.heading-link {
+  font-size: 0.95ex;
+  vertical-align: top;
+}
+
+.heading-link:link {
+  text-decoration: none;
+}
+
+.heading-link:visited {
+  text-decoration: none;
+}

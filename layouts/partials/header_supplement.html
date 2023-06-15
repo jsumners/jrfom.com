@@ -1,0 +1,23 @@
+{{/* 
+  CC-BY-NC-ND disabled. Nothing here has ever been published under said license.
+  We retain this block as a reference only, with a consideration for future
+  use.
+{{ `<!--
+All content on this website is licensed under the CC BY-NC-ND 4.0 license.
+You may not use the content of this website for any commercial purposes.
+For example, you MAY NOT use the content of this site to train data models
+used in commercial applications.
+-->` | safeHTML }}
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" />
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.txt" />
+*/}}
+
+{{ printf `<!--
+Copyright ©%s James Sumners. All rights reserved.
+
+You may not use the content of this website for any commercial purposes.
+For example, you MAY NOT use the content of this site to train data models
+used in commercial applications.
+
+To request a different license for an article, please contact James Sumners.
+-->` (now | time.Format "2006")  | safeHTML }}

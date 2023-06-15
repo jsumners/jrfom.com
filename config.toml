@@ -1,6 +1,6 @@
 baseURL = "https://jrfom.com/"
 languageCode = "en-us"
-copyright = "Copyright - James Sumners"
+copyright = "Copyright ©{year} James Sumners. All rights reserved."
 title = "Room Full of Mirrors"
 
 ### begin: theme settings ###

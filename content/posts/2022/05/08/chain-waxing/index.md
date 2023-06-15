@@ -1,7 +1,7 @@
 ---
 title: Chain Waxing
 date: 2022-05-08T17:00:00-04:00
-lastmod: 2023-04-13T08:30:00-04:00
+lastmod: 2023-06-15T15:30:00-05:00
 slug: chain-waxing
 ---
 
@@ -31,8 +31,9 @@ bill of materials to get started with chain waxing is a bit lengthier:
 + [chain link pliers](https://www.amazon.com/dp/B00D9NW32I)
 + [chain hook](https://www.amazon.com/dp/B09Q3C4LBR)
 + [chain links](https://www.amazon.com/dp/B07SSWF7JY)
-+ [InstantPot](https://www.amazon.com/dp/B06Y1YD5W7): to melt the wax with.
-+ [extra cooking pot](https://www.amazon.com/dp/B072K19MQV): for the wax.
++ <strike>[InstantPot](https://www.amazon.com/dp/B06Y1YD5W7): to melt the wax with.</strike>
++ <strike>[extra cooking pot](https://www.amazon.com/dp/B072K19MQV): for the wax.</strike>
++ [wax warmer](https://www.amazon.com/dp/B09X1WFR7Z): to melt the wax with (see [Update 2023-06-15](#update-2023-06-15) below)
 
 It's a lot of stuff with a rather hefty upfront cost. But, as you can learn
 below, I think it was worth it.
@@ -180,6 +181,18 @@ Since writing this article I have devised a couple of tips that make maintenance
 2. There is no need to hot wax the quick link. It is sufficient to hot wax the full chain, put it back on the bike and link it together with the quick link, and then apply some drip wax to the pins of the quick link.
 3. It's a good idea to perform a quick degreaser and denatured alcohol rinse of the chain every few months to remove internal dirt. One round of each cleaner should be enough. Let the chain fully dry afterward, and then proceed with a standard hot wax.
 
+## Update 2023-06-15
+
+I have switched to using a dedicated [wax warmer][wax-warmer] instead of using an InstantPot for melting the wax. The InstantPot heats the wax fairly quickly, but it doesn't _stop_ heating the wax. This means the temperature has to be regularly monitored in order to remove the pot from the heat before the wax reaches its combustion point. With the wax warmer, it's very easy to set a desired temperature and the warmer will maintain it.
+
+As can be seen in the images below, I have my warmer set to roughly 80ºC. It takes about an _hour_ for the warmer to melt the wax (far slower than the InstantPot), and it isn't completely accurate to the set temperature. My warmer seems to be around 2 to 3 degrees off on the dial. So my 80ºC setting ends up with the wax maintaining temperature at around 83ºC.
+
+This is fine, though. I can set the warmer in action about an hour before I plan to perform the maintenance on my bicycle, and it'll be ready when I am. I also no longer need to put the chain in the pot prior to turning the heat on in order to get the chain hot at the same time as the wax. Since the warmer is going to maintain a non-combustible temperature, I can put the chain in the wax after it has melted, deal with other bike maintenance (e.g. washing it) while the chain cooks, and then pull it when I feel it has simmered long enough.
+
+I highly recommend going the dedicated wax warmer route. I opted for a cheap one, but if you have the cash, you can probably find one with a digital temperature control. But a cheap one where you have determined the dial and actual temperature variance is plenty sufficient for the task.
+
+{{< image-gallery namePattern="wax-warmer/*" />}}
+
 
 [trek-fx-7.2]: https://web.archive.org/web/20201112034340/https://archive.trekbikes.com/us/en/2014/Trek/7_2_fx
 [tri-flow]: https://web.archive.org/web/20220422180818/https://www.triflowlubricants.com/product/tri-flow-superior-lubricant-drip-bottle/
@@ -189,3 +202,4 @@ Since writing this article I have devised a couple of tips that make maintenance
 [silca-drip-wax]: https://silca.cc/collections/chain-lube-wax/products/silca-super-secret-chain-lube
 [zfc]: https://zerofrictioncycling.com.au
 [silca-howto]: https://web.archive.org/web/20220210040549/https://silca.cc/pages/how-to-apply-chain-lube
+[wax-warmer]: https://www.amazon.com/dp/B09X1WFR7Z

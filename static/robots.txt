@@ -1,0 +1,9 @@
+# Disallow ChatGPT crawls from user interactive prompts.
+# https://platform.openai.com/docs/plugins/bot
+User-agent: ChatGPT-User
+Disallow: /
+
+# Catch-all allow
+User-agent: *
+Disallow: 
+

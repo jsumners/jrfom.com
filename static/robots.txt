@@ -3,6 +3,11 @@
 User-agent: ChatGPT-User
 Disallow: /
 
+# Disallow ChatGPT crawler.
+# https://platform.openai.com/docs/gptbot
+User-agent: GPTBot
+Disallow: /
+
 # Catch-all allow
 User-agent: *
 Disallow: 

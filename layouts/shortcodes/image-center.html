@@ -1,0 +1,43 @@
+<!--
+  Add an image that should be centered within the post on its own line, i.e.
+  text is above and below it but not to the left or right of it.
+
+  @param src Path to an image.
+  @param caption Text to use as the image's alt text.
+  @param resizeParam Parameters for the risize function, e.g. "x400 q80".
+  See https://gohugo.io/content-management/image-processing/#resize.
+-->
+
+{{ $image := $.Page.Resources.Get (.Get "src") }}
+{{ $caption := .Get "caption" }}
+{{ $resizeParam := .Get "resizeParam" }}
+
+<style>
+  div.image-center {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  div.image-center a img {
+    display: block;
+    vertical-align: bottom;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+  }
+</style>
+
+<div class="image-center">
+  {{ with $image }}
+    {{ $resized := .Resize $resizeParam }}
+    <a href="{{.RelPermalink}}">
+      <img
+        src="{{$resized.RelPermalink}}"
+        width="{{$resized.Width}}"
+        height="{{$resized.Height}}"
+        alt="{{$caption}}"
+      />
+    </a>
+  {{ end }}
+</div>

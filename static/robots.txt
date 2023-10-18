@@ -8,6 +8,11 @@ Disallow: /
 User-agent: GPTBot
 Disallow: /
 
+# Disallow indexing of sensitive images.
+User-agent: *
+Disallow: /posts/2023/10/17/being-human-with-humans/*.jpeg
+Disallow: /posts/2023/10/17/being-human-with-humans/*.jpg
+
 # Catch-all allow
 User-agent: *
 Disallow: 

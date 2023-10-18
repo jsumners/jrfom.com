@@ -1,0 +1,35 @@
+<!--
+  Add an image to the right of text, that will wrap on its left. The image
+  should be added to the post before the text that will wrap. To keep the image
+  aligned with specific text, follow the text with a "clear-both" shortcode.
+
+  @param src Path to an image.
+  @param caption Text to use as the image's alt text.
+  @param resizeParam Parameters for the risize function, e.g. "x400 q80".
+  See https://gohugo.io/content-management/image-processing/#resize.
+-->
+
+{{ $image := $.Page.Resources.Get (.Get "src") }}
+{{ $caption := .Get "caption" }}
+{{ $resizeParam := .Get "resizeParam" }}
+
+<style>
+  div.image-right {
+    float: right;
+    margin-left: 1rem;
+  }
+</style>
+
+<div class="image-right">
+  {{ with $image }}
+    {{ $resized := .Resize $resizeParam }}
+    <a href="{{.RelPermalink}}">
+      <img
+        src="{{$resized.RelPermalink}}"
+        width="{{$resized.Width}}"
+        height="{{$resized.Height}}"
+        alt="{{$caption}}"
+      />
+    </a>
+  {{ end }}
+</div>

@@ -1,0 +1,13 @@
+div.image-center {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+div.image-center a img {
+  display: block;
+  vertical-align: bottom;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}

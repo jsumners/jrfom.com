@@ -13,13 +13,6 @@
 {{ $caption := .Get "caption" }}
 {{ $resizeParam := .Get "resizeParam" }}
 
-<style>
-  div.image-right {
-    float: right;
-    margin-left: 1rem;
-  }
-</style>
-
 <div class="image-right">
   {{ with $image }}
     {{ $resized := .Resize $resizeParam }}

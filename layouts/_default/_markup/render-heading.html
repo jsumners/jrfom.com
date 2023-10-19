@@ -1,3 +1,7 @@
+{{/*
+  This is a Markdown render hook (https://gohugo.io/templates/render-hooks/)
+  that adds an anchor to every heading.
+*/}}
 <h{{ .Level }} id="{{ .Anchor | safeURL }}">
   {{ .Text | safeHTML }}
   <a href="#{{ .Anchor | safeURL }}" class="heading-link">§</a>

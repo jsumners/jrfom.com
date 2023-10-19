@@ -1,0 +1,72 @@
+div.spoiler {
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+div.spoiler img.spoiler-filtered {
+  display: block;
+  vertical-align: bottom;
+  filter: blur(20px) grayscale(50%);
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+div.spoiler .spoiler-original {
+  display: table;
+  visibility: collapse;
+}
+
+div.spoiler .spoiler-original > img {
+  visibility: collapse;
+}
+
+div.spoiler input {
+  width: 0;
+  height: 0;
+}
+
+div.spoiler input:checked ~ .spoiler-filtered {
+  visibility: hidden;
+  filter: none;
+  transition: visibility 0.5s, filter 0.3s;
+  width: 0;
+  height: 0
+}
+
+div.spoiler input:checked, div.spoiler input:checked ~ label {
+  display: none;
+}
+
+div.spoiler input:checked ~ .spoiler-original {
+  visibility: visible;
+  transition: visibility 0.6s;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.spoiler input:checked ~ .spoiler-original > img {
+  visibility: visible;
+  transition: visibility 0.6s;
+}
+
+.spoiler-button {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3rem;
+  line-height: 3rem;
+  width: 50%;
+  padding: 0 1rem;
+  font-size: 1rem;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  text-align: center;
+  border-radius: 1rem;
+  cursor: pointer;
+}

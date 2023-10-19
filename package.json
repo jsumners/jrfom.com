@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "hugo server -D",
+    "start": "hugo server -D --disableFastRender",
     "build": "hugo",
     "deploy": "rsync -av --rsh=ssh public/ jrfom.com:/var/www/jrfom.com"
   }

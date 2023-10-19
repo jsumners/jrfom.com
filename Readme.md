@@ -49,3 +49,25 @@ content
                     ├── an-image.jpg
                     └── index.md
 ```
+
+
+### Custom Shortcodes
+
+We can define custom shortcodes in [layouts/shortcodes/](./layouts/shortcodes).
+See https://gohugo.io/templates/shortcode-templates/ for details about
+shortcodes.
+
+Typically, we want to include some custom CSS for each shortcode. If we include
+the CSS within a `<style>` block in the shortcode itself, that CSS will be
+duplicated for each instance of the shortcode in a page. This is clearly not
+optimal. To solve this, we:
+
+1. Put a new stylesheet in [static/css/](./static/css/)
+2. Add a new conditional block to [layouts/partials/header_supplement.html](./layouts/partials/header_supplement.html):
+
+        ```
+        {{ if .HasShortcode "image-center" -}}
+            <link rel="stylesheet" type="text/css" href="/css/image-center.css" />
+        {{- end }}
+        ```
+

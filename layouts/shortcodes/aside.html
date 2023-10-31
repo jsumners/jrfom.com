@@ -1,0 +1,14 @@
+<!--
+  Adds an aside block to an article utilizing the the current theme's styling
+  for asides. Note that any Markdown resources should be included within the
+  opening and closing tokens for the shortcode. All content within the tokens
+  is processed as Markdown, which is done separately from the overall article
+  processing.
+
+  @param title A optional heading for the aside.
+-->
+
+<aside>
+  {{ if  (.Get "title") }}<h3>{{ .Get "title" }}</h3>{{ end }}
+  {{ .Inner | markdownify }}
+</aside>

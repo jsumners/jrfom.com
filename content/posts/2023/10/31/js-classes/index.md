@@ -1,6 +1,6 @@
 ---
 title: Thoughts On JavaScript Classes
-date: 2023-10-32T11:45:00-04:00
+date: 2023-10-31T11:45:00-04:00
 lastmod: 2023-10-31T11:45:00-04:00
 slug: js-classes
 ---

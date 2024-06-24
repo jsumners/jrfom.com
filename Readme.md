@@ -32,6 +32,20 @@ inlining images with the following syntaxes:
 
 ## Project Notes
 
+### Linking To A Previous Article
+
+Write a Markdown link in the following format:
+
+```
+[Text of the link]({{< ref "url-slug.md" >}})
+```
+
+For example:
+
+```
+[A Rumination On A Promotion]({{< ref "a-promotion.md" >}})
+```
+
 ### Pages With Resources
 
 A page, e.g. "blog post", that incudes things like images are written using
